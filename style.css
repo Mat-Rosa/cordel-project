@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+:root {
+    --font1: Verdana, Geneva, Tahoma, sans-serif;
+    --font2: 'Bree Serif', serif;
+    --font3: 'Indie Flower', cursive
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: darkgray;
+    font-family: var(--font1);
+}
+
+header {
+    background-color: black;
+}
+
+header > h1 {
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-family: var(--font2);
+    font-size: 8.5vw;
+}
+
+header > p {
+    color: white;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    line-height: 2em;
+    font-family: var(--font3);
+    font-size: 2em;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 3.5vw;
+}
+
+.normal {
+    background-color: white;
+    color: black;
+}
+
+#primeiro {
+    background-color: black;
+    color: white;
+    background-image: url('imagens/background001.jpg');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.5);
+}
+
+#primeiro > p {
+    background-color: rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    padding: 5px;
+    text-shadow: 1px 1px 0px black;
+}
+
+#segundo {
+    background-color: black;
+    color: white; 
+    background-image: url('imagens/background002.jpg');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.5);
+}
+
+#segundo > p {
+    background-color: rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    padding: 5px;
+    text-shadow: 1px 1px 0px black;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: rgb(251, 255, 0);
+}
+
+footer {
+    background-color: black;
+}
+
+footer > p {
+    color: white;
+    text-align: center;
+    padding: 10px;
+}

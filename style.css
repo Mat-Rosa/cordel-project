@@ -93,6 +93,10 @@ section {
     text-shadow: 1px 1px 0px black;
 }
 
+p {
+    padding-bottom: 1.5em;
+}
+
 a {
     text-decoration: none;
     color: white;
